@@ -1,0 +1,26 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+.card-imgbx {
+    border-radius: 30px;
+}
+
+.card-txt {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.card-text{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.card-text:hover{
+    color: cornflowerblue;
+}
+
+.img-hover:hover{
+    transform: scale(1.01);
+}
