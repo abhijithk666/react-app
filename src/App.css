@@ -1,0 +1,194 @@
+@media screen and (min-width: 10px){
+.App {
+  margin: 0 0;
+  background: white;
+}
+}
+
+.Header-logo{
+  float: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  max-width: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.img{
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  background-color:black;
+  height: 70px;
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.Header-menu, .Header-widget{
+  overflow: hidden;
+  float: right;
+}
+
+.Header-menu a{
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.Header-menu a:hover{
+  background-color: gray;
+}
+
+#main-menu .Header-widget{
+  position:relative;
+}
+
+#main-menu ul > li {
+  float: left;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+  float: right;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  display: list-item;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  color:white;
+  font-style: none;
+}
+
+#main-menu ul > li.has-sub > a:after {
+  content: '\f078';
+  float: left;
+  font-family: 'Font Awesome 5 Free';
+  font-size: 12px;
+  font-weight: 900;
+  margin: 0 0 0 0px;
+}
+
+.clearfix{
+  margin: 100px;
+  position: relative;
+}
+
+.head-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.head-text .h1-content{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.head-text .head-content {
+  font-size: 24px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.cards, .card{
+  position: relative;
+}
+
+.cards .widget-content {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 0;
+}
+
+.card1 {
+  float: left;
+  pointer-events: none;
+  position: relative;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 10px){
+.Thor-logo{
+  max-width: 100%;
+  position: relative;
+}
+
+.card-text, .card-texts{
+  text-align:center;
+  font-size: larger;
+  position: relative;
+}
+
+.card2, .card3{
+  pointer-events: none;
+  position: relative;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Rain-logo{
+  background-color: darkblue;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  position: relative;
+}
+
+.Bolt-logo{
+  background-color: gray;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  position: relative;
+}
+
+.Pulse-logo, .Chatbot-logo{
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  position: relative;
+}
+
+.cardfix{
+  margin: 20px;
+  position: relative;
+}
+
+.card4, .card5{
+  text-align: center;
+  pointer-events: none;
+  position: relative;
+  width: 100px;
+}
+}
+
+p{
+  text-align: center;
+}
