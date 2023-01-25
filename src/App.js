@@ -4,7 +4,6 @@ import rain from './rain.svg';
 import bolt_light from './bolt_light.svg';
 import pulse from './ps.svg';
 import chatbot from './chatbot.svg';
-import Card from 'react-bootstrap/Card';
 import './App.css';
 import { Row, Col, CardGroup } from "react-bootstrap";
 
@@ -52,14 +51,14 @@ function App() {
             <>
             <CardGroup>
               <Col>
-              <div className='cardfix'></div><div className='cardfix'></div><div className='cardfix'></div>
               <div className='card1'>
-                <div>
-                  <img src={thor_avatars_01} style={{borderRadius: "20px"}} className="Thor-logo" width="350" height="400"/>
-                </div>
-                <h2><center>THOR</center></h2>
+              <div className='cardfix'></div>
                 <div className='card-text'>
                   <div className='card-texts'>
+                    <div>
+                    <img src={thor_avatars_01} style={{borderRadius: "20px"}} className="Thor-logo" width="350" height="400"/>
+                    </div>
+                  <h2><center>THOR</center></h2>
                   <p>
                   THOR is highly scalable, extensible and allows deep integration to any
                   domain. Multi channel capabilities of THOR enables businesses to engage
@@ -69,9 +68,10 @@ function App() {
                 </div>  
               </div>
               </Col>
-              <div className='cardfix'></div><div className='cardfix'></div>
+              <div className='clearfix'></div>
               <Col>
               <div className= "card2">
+              <div className='clearfix'></div>
                 <div className = "card-text">
                   <div className="card-texts">
                     <img src= {rain} style={{borderRadius: "10px"}} className="Rain-logo" width="150" height="50"/>
@@ -80,10 +80,11 @@ function App() {
                   </div>
                 </div>
               </div>
+              <div className='cardfix'></div><div className='cardfix'></div>
               <div className= "card2">
                 <div className = "card-text">
                   <div className="card-texts">
-                    <img src= {pulse} style={{borderRadius: "10px"}} className="Pulse-logo" width="150" height="0"/>
+                    <img src= {pulse} style={{borderRadius: "10px"}} className="Pulse-logo" width="150" height="80"/>
                       <center><h3>PULSE</h3></center>
                       <p>Information. Feedback.</p>
                   </div>
@@ -92,6 +93,7 @@ function App() {
               </Col>
               <Col>
               <div className= "card3">
+              <div className='clearfix'></div>
                 <div className = "card-text">
                   <div className="card-texts">
                     <img src= {bolt_light} style={{borderRadius: "10px"}} className="Bolt-logo" width="150" height="50"/>
@@ -100,6 +102,7 @@ function App() {
                   </div>
                 </div>
               </div>
+              <div className='cardfix'></div><div className='cardfix'></div>
               <div className= "card2">
                 <div className = "card-text">
                   <div className="card-texts">

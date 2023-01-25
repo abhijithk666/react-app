@@ -155,23 +155,17 @@ a{
 
 .Rain-logo{
   background-color: darkblue;
-  align-items: center;
-  justify-content: center;
   max-width: 100%;
   position: relative;
 }
 
 .Bolt-logo{
   background-color: gray;
-  align-items: center;
-  justify-content: center;
   max-width: 100%;
   position: relative;
 }
 
 .Pulse-logo, .Chatbot-logo{
-  align-items: center;
-  justify-content: center;
   max-width: 100%;
   position: relative;
 }
