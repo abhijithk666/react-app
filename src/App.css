@@ -1,0 +1,25 @@
+.card-text:hover{
+    color: cornflowerblue;
+}
+
+.img-hover{
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-hover:hover{
+    transform: scale(1.01);
+}
+
+.small-box{
+    border-radius: 30px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 7rem;
+}
