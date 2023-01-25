@@ -1,22 +1,28 @@
-import { Col } from "react-bootstrap";
 
 const Card = (props) => {
   return (
-    <Col>
-      <div className = "card-imgbx col-3" style={{width: "450px"}}>
-        <div>
-          <img src = {props.data.imgUrl} style={{borderRadius: "20px"}} className="img-hover"/>
-        </div>
-        <div className = "card-txt">
-          <div className="card-text">
-            <h1>{ props.data.title }</h1>
-          </div>
+  
+      <div class="col-lg-4">
+        <div className = "card-imgbx">
           <div>
-            <p>{ props.data.description }</p>
+            <img class="img-fluid" src = {props.data.imgUrl} className="img-hover"/>
+          </div>
+          <div class="d-flex p-3">
+            <div className="small-box">
+              <div>{ props.data.smallTxt }</div>
+            </div>
+          </div>
+          <div className = "card-txt">
+            <div className="card-text">
+              <h2>{ props.data.title }</h2>
+            </div>
+            <div>
+              <p>{ props.data.description }</p>
+            </div>
           </div>
         </div>
       </div>
-    </Col>
+    
   )
 }
 
