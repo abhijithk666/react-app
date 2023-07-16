@@ -5,7 +5,7 @@ const Card = (props) => {
       <div class="col-lg-4">
         <div className = "card-imgbx">
           <div>
-            <img class="img-fluid" src = {props.data.imgUrl} className="img-hover"/>
+            <img class="img-fluid" src = {props.data.imgUrl} className="img-hover" alt="card"/>
           </div>
           <div class="d-flex p-3">
             <div className="small-box">
